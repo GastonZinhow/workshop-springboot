@@ -1,4 +1,4 @@
-package config;
+package com.config;
 
 import java.util.Arrays;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 
-import domain.User;
-import repository.UserRepository;
+import com.domain.User;
+import com.repository.UserRepository;
 
 @Configuration
 public class Instantiation implements CommandLineRunner{

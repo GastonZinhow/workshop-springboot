@@ -1,8 +1,8 @@
-package dto;
+package com.dto;
 
 import java.io.Serializable;
 
-import domain.User;
+import com.domain.User;
 
 public class UserDTO implements Serializable{
 	private static final long serialVersionUID = 1L;

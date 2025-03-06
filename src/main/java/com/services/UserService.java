@@ -1,12 +1,12 @@
-package services;
+package com.services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import domain.User;
-import repository.UserRepository;
+import com.domain.User;
+import com.repository.UserRepository;
 
 @Service
 public class UserService {
